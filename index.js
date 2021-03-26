@@ -1,6 +1,6 @@
-const API_URL = 'http://api.openweathermap.org/data/2.5/weather?appid=ec117e367de727a63b1b4dca7a98f7fa&units=metric&lang=es&q=';
+const API_URL = 'https://api.openweathermap.org/data/2.5/weather?appid=ec117e367de727a63b1b4dca7a98f7fa&units=metric&lang=es&q=';
 
-const iconURL = 'http://openweathermap.org/img/wn/';
+const iconURL = 'https://openweathermap.org/img/wn/';
 
 const fetchData = async (city) => {
     const response = await fetch(`${API_URL}${city}`);
